@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,MAAO;EACL,QAAQ,EAAE,KAAK",
+"sources": ["header-fixed.scss"],
+"names": [],
+"file": "header-fixed.css"
+}

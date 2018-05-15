@@ -1,0 +1,77 @@
+header {
+  padding: 11px 0 13px;
+  background-color: #ffffff;
+  width: 100%;
+  transition: .3s;
+  .flex-ct {
+    display: flex;
+    justify-content: space-between;
+    width: 98%;
+    margin: 0 auto;
+  }
+  nav {
+    display: flex;
+  }
+  .btn-ct {
+    margin: 0 30% 0 0;
+    .menu-toggle {
+      cursor: pointer;
+      margin: 15px 0 0 0;
+      width: 46px;
+      height: 46px;
+      padding: 0;
+      background-color: transparent;
+      border-radius: 50%;
+      border: 1px solid #cfae6c;
+      &:before {
+        content: "\2261";
+        color: #cfae6c;
+        font-size: 23px;
+      }
+    }
+  }
+  .multilanguage-btns {
+    display: flex;
+    margin: 8px 0 0;
+    a {
+      padding: 5px 7px;
+      color: #000000;
+      text-decoration: none;
+      transition: .3s;
+      font-weight: 400;
+      font-family: 'SFUIDisplay-Regular', sans-serif;
+      &:hover {
+        color: #d2ab68;
+      }
+    }
+  }
+  .logo-ct {
+    .logo {
+
+    }
+  }
+  .communications {
+    display: flex;
+    flex-direction: column;
+    .phone {
+      margin: 10px 0 20px;
+      align-self: flex-end;
+      color: #d3ad69;
+      font-family: 'SFUIDisplay-Medium', sans-serif;
+      font-size: 14px;
+      font-weight: 500;
+    }
+    .social-network {
+      align-self: flex-end;
+      display: flex;
+      a {
+        margin: 0 8px;
+        svg {
+          fill: #a89879;
+        }
+      }
+    }
+  }
+}
+@import 'options_of_header/fixed-header';
+@import 'options_of_header/moving-header';

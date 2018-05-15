@@ -1,0 +1,53 @@
+.pine-tree-coast-template {
+  padding: 90px 0 288px;
+  .text-ct {
+    width: 90%;
+    margin: 0 3% 0 7%;
+  }
+  h2 {
+    color: #ffffff;
+    font-family: 'SFUIDisplay-Thin', sans-serif;
+    font-size: 48px;
+    font-weight: 400;
+    margin: 0 0 45px;
+    line-height: 60px;
+  }
+  .fixed-h2 {
+    position: fixed;
+    top: 145px;
+    width: 84%;
+    left: 8%;
+    text-align: center;
+  }
+  .static-h2 {
+    position: static;
+  }
+  p {
+    color: #ffffff;
+    font-family: 'SFUIDisplay-Light', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    width: 85%;
+    margin: 0 0 57px;
+    line-height: 30px;
+  }
+  .flex-ct {
+    display: flex;
+    justify-content: flex-end;
+  }
+  button {
+    border-radius: 30px;
+    padding: 15px 40px;
+    background-color: transparent;
+    box-shadow: 0 0 46px rgba(150, 192, 255, 0.3);
+    border: 3px solid #cfae6c;
+    color: #efd9ad;
+    font-family: 'SFUIDisplay-Light', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    transition: .3s;
+    &:hover {
+      border-radius: 30px 0 30px;
+    }
+  }
+}
