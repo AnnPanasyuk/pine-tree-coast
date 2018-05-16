@@ -2,21 +2,52 @@ header {
   padding: 11px 0 13px;
   background-color: #ffffff;
   width: 100%;
-  transition: .3s;
+  transition: 1s;
+  @media (min-width: 320px) and (max-width: 768px) {
+    padding: 0 0 8px;
+  }
   .flex-ct {
     display: flex;
     justify-content: space-between;
     width: 98%;
     margin: 0 auto;
+    @media (min-width: 320px) and (max-width: 768px) {
+      width: 100%;
+    }
+    @media (min-width: 320px) and (max-width: 480px) {
+      width: 75%;
+      flex-wrap: wrap;
+      margin: 0;
+    }
   }
   nav {
     display: flex;
+    @media (min-width: 320px) and (max-width: 768px) {
+      display: block;
+      width: 35%;
+    }
+    @media (min-width: 320px) and (max-width: 480px) {
+      width: 100%;
+      order: 3;
+      margin: -16px 0 0;
+    }
   }
   .btn-ct {
-    margin: 0 30% 0 0;
+    padding: 0 50px 0 0;
+    transition: 1s;
+    align-self: center;
+    @media (min-width: 320px) and (max-width: 768px) {
+      padding: 0 50px 10px 0;
+    }
+    @media (min-width: 320px) and (max-width: 480px) {
+      position: absolute;
+      top: 23px;
+      right: 10px;
+      padding: 0;
+    }
     .menu-toggle {
+      transition: 1s;
       cursor: pointer;
-      margin: 15px 0 0 0;
       width: 46px;
       height: 46px;
       padding: 0;
@@ -29,48 +60,150 @@ header {
         font-size: 23px;
       }
     }
+    .scroll-menu-toggle {
+      margin: 0;
+      transition: 1s;
+    }
   }
   .multilanguage-btns {
     display: flex;
-    margin: 8px 0 0;
+    transition: 1s;
+    align-self: center;
+    @media (min-width: 320px) and (max-width: 480px) {
+      justify-content: flex-end;
+    }
     a {
       padding: 5px 7px;
       color: #000000;
       text-decoration: none;
-      transition: .3s;
+      transition: 1s;
       font-weight: 400;
       font-family: 'SFUIDisplay-Regular', sans-serif;
       &:hover {
         color: #d2ab68;
       }
+      @media (min-width: 320px) and (max-width: 480px) {
+        &:first-child {
+          padding-left: 0;
+        }
+        &:last-child {
+          padding-right: 0;
+        }
+      }
     }
   }
+  .scroll-multilanguage-btns {
+    margin: 0;
+    transition: 1s;
+  }
   .logo-ct {
+    width: 194px;
+    height: 103px;
+    overflow: hidden;
+    transition: 1s;
+    @media (min-width: 320px) and (max-width: 768px) {
+      position: relative;
+      width: 194px;
+      height: 65px;
+      overflow: hidden;
+    }
+    @media (min-width: 320px) and (max-width: 480px) {
+      order: 1;
+      width: 46px;
+      height: 75px;
+    }
     .logo {
-
+      transition: 1s;
+      @media (min-width: 320px) and (max-width: 768px) {
+        position: absolute;
+        width: 100%;
+        bottom: -45px;
+        left: 0;
+      }
+      @media (min-width: 320px) and (max-width: 480px) {
+        left: 50%;
+        width: 194px;
+        top: 25px;
+        transform: translateX(-50%);
+      }
+    }
+  }
+  .scroll-logo-ct {
+    position: relative;
+    width: 194px;
+    height: 65px;
+    overflow: hidden;
+    @media (min-width: 320px) and (max-width: 480px) {
+      width: 46px;
+      height: 75px;
+    }
+    .scroll-logo {
+      position: absolute;
+      bottom: -45px;
+      left: 0;
+      @media (min-width: 320px) and (max-width: 480px) {
+        left: 50%;
+        top: 25px;
+      }
     }
   }
   .communications {
-    display: flex;
-    flex-direction: column;
-    .phone {
-      margin: 10px 0 20px;
-      align-self: flex-end;
-      color: #d3ad69;
-      font-family: 'SFUIDisplay-Medium', sans-serif;
-      font-size: 14px;
-      font-weight: 500;
+    transition: 1s;
+    align-self: center;
+    @media (min-width: 320px) and (max-width: 768px) {
+      width: 35%;
+    }
+    @media (min-width: 320px) and (max-width: 480px) {
+      width: 64%;
+      order: 2;
+    }
+    .phone-ct {
+      display: flex;
+      justify-content: flex-end;
+      .phone {
+        transition: 1s;
+        margin: 10px 0 20px;
+        color: #d3ad69;
+        font-family: 'SFUIDisplay-Medium', sans-serif;
+        font-size: 14px;
+        font-weight: 500;
+        @media (min-width: 320px) and (max-width: 768px) {
+          margin: 0 0 5px;
+        }
+      }
+    }
+    .scroll-phone {
+      margin: 0 0 5px;
+      transition: 1s;
     }
     .social-network {
-      align-self: flex-end;
       display: flex;
+      justify-content: flex-end;
       a {
         margin: 0 8px;
+        &:first-child {
+          margin-left: 0;
+        }
+        &:last-child {
+          margin-right: 0;
+        }
         svg {
           fill: #a89879;
         }
       }
     }
+  }
+  .scroll-communications {
+    @media (min-width: 320px) and (max-width: 480px) {
+      order: 1;
+    }
+  }
+}
+.scroll-header {
+  padding: 8px 0;
+  transition: 1s;
+  @media (min-width: 320px) and (max-width: 480px) {
+    padding: 0 0 8px;
   }
 }
 @import 'options_of_header/fixed-header';

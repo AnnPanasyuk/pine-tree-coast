@@ -11,6 +11,9 @@
     font-weight: 400;
     margin: 0 0 45px;
     line-height: 60px;
+    @media (min-width: 320px) and (max-width: 480px) {
+      font-size: 30px;
+    }
   }
   .fixed-h2 {
     position: fixed;
