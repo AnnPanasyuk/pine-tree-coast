@@ -5,18 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="93c28edf-2b1b-4c1f-af41-1d551820d371" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/pine-tree_coast.iml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterPath="" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/css/.sass-cache/4fae0d1ccb4f0d76e413a4d6f862eb088811a674/commonStyle.scssc" afterPath="$PROJECT_DIR$/css/.sass-cache/4fae0d1ccb4f0d76e413a4d6f862eb088811a674/commonStyle.scssc" />
-      <change beforePath="$PROJECT_DIR$/css/.sass-cache/4fae0d1ccb4f0d76e413a4d6f862eb088811a674/header.scssc" afterPath="$PROJECT_DIR$/css/.sass-cache/4fae0d1ccb4f0d76e413a4d6f862eb088811a674/header.scssc" />
-      <change beforePath="$PROJECT_DIR$/css/.sass-cache/4fae0d1ccb4f0d76e413a4d6f862eb088811a674/pine-tree-coast-template.scssc" afterPath="$PROJECT_DIR$/css/.sass-cache/4fae0d1ccb4f0d76e413a4d6f862eb088811a674/pine-tree-coast-template.scssc" />
-      <change beforePath="$PROJECT_DIR$/css/commonStyle.scss" afterPath="$PROJECT_DIR$/css/commonStyle.scss" />
-      <change beforePath="$PROJECT_DIR$/css/header.scss" afterPath="$PROJECT_DIR$/css/header.scss" />
-      <change beforePath="$PROJECT_DIR$/css/pine-tree-coast-template.scss" afterPath="$PROJECT_DIR$/css/pine-tree-coast-template.scss" />
-      <change beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
-      <change beforePath="$PROJECT_DIR$/css/style.css.map" afterPath="$PROJECT_DIR$/css/style.css.map" />
-      <change beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change beforePath="$PROJECT_DIR$/js/sticky-header.js" afterPath="$PROJECT_DIR$/js/sticky-header.js" />
+      <change beforePath="$PROJECT_DIR$/css/.sass-cache/2def62fa95a76a7c0e6920698db89fc183191d37/fixed-header.scssc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/css/.sass-cache/2def62fa95a76a7c0e6920698db89fc183191d37/header-fixed.scssc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/css/.sass-cache/2def62fa95a76a7c0e6920698db89fc183191d37/moving-header.scssc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/css/.sass-cache/4fae0d1ccb4f0d76e413a4d6f862eb088811a674/commonStyle.scssc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/css/.sass-cache/4fae0d1ccb4f0d76e413a4d6f862eb088811a674/company.scssc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/css/.sass-cache/4fae0d1ccb4f0d76e413a4d6f862eb088811a674/ecology.scssc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/css/.sass-cache/4fae0d1ccb4f0d76e413a4d6f862eb088811a674/fonts.scssc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/css/.sass-cache/4fae0d1ccb4f0d76e413a4d6f862eb088811a674/header.scssc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/css/.sass-cache/4fae0d1ccb4f0d76e413a4d6f862eb088811a674/lifestyle.scssc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/css/.sass-cache/4fae0d1ccb4f0d76e413a4d6f862eb088811a674/pine-tree-coast-template.scssc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/css/.sass-cache/4fae0d1ccb4f0d76e413a4d6f862eb088811a674/security.scssc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/css/.sass-cache/4fae0d1ccb4f0d76e413a4d6f862eb088811a674/status.scssc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/css/.sass-cache/4fae0d1ccb4f0d76e413a4d6f862eb088811a674/style.scssc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/css/.sass-cache/4fae0d1ccb4f0d76e413a4d6f862eb088811a674/top-content.scssc" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -95,7 +102,7 @@
             <entry file="file://$PROJECT_DIR$/js/sticky-header.js">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="348">
-                  <caret line="54" column="0" lean-forward="true" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
+                  <caret line="54" column="0" lean-forward="false" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -239,16 +246,15 @@
       <option name="presentableId" value="Default" />
       <updated>1526369477376</updated>
       <workItem from="1526369478770" duration="21368000" />
-      <workItem from="1526454790886" duration="16976000" />
+      <workItem from="1526454790886" duration="17268000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38344000" />
+    <option name="totallyTimeSpent" value="38636000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="24" width="1366" height="741" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.111773476" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -257,7 +263,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3277592" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3277592" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3277592" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -434,7 +440,7 @@
     <entry file="file://$PROJECT_DIR$/js/sticky-header.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="348">
-          <caret line="54" column="0" lean-forward="true" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
+          <caret line="54" column="0" lean-forward="false" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
           <folding />
         </state>
       </provider>
