@@ -1,0 +1,50 @@
+.menu-navigation .left-ct, .menu-navigation .right-ct {
+  padding: 27px 0 0; }
+.menu-navigation .close-btn {
+  width: 46px;
+  height: 46px;
+  border: 1px solid #cfae6c;
+  border-radius: 50%;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  transition: all 0.3s; }
+  .menu-navigation .close-btn span {
+    content: '';
+    position: absolute;
+    bottom: -webkit-calc(50% - 7px);
+    bottom: -moz-calc(50% - 7px);
+    bottom: calc(50% - 7px);
+    left: -webkit-calc(50% - 22px/2);
+    left: -moz-calc(50% - 22px/2);
+    left: calc(50% - 22px/2);
+    width: 22px;
+    height: 2px;
+    background-color: #cfae6c; }
+  .menu-navigation .close-btn::before {
+    transition: all 0.3s;
+    content: '';
+    position: absolute;
+    top: -webkit-calc(50% - 7px);
+    top: -moz-calc(50% - 7px);
+    top: calc(50% - 7px);
+    left: -webkit-calc(50% - 22px/2);
+    left: -moz-calc(50% - 22px/2);
+    left: calc(50% - 22px/2);
+    width: 22px;
+    height: 2px;
+    background-color: #cfae6c; }
+  .menu-navigation .close-btn::after {
+    position: absolute;
+    top: -webkit-calc(50% - 1px);
+    transition: all 0.3s;
+    top: -moz-calc(50% - 1px);
+    top: calc(50% - 1px);
+    width: 22px;
+    left: -webkit-calc(50% - 22px/2);
+    left: -moz-calc(50% - 22px/2);
+    left: calc(50% - 22px/2);
+    height: 2px;
+    background-color: #cfae6c; }
+
+/*# sourceMappingURL=menu-nav.css.map */

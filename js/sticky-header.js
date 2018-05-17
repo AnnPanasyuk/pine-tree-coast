@@ -41,6 +41,7 @@ function changePositionLogo() {
         positionForLogo = currentScrollTop;
     } else if (x > currentScrollTop) {
         console.log("ha-ha");
+        console.log($( window ).height());
         $("header .logo-ct").removeClass("scroll-logo-ct");
         $("header .logo").removeClass("scroll-logo");
         $("header").removeClass("scroll-header");

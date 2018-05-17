@@ -13,7 +13,11 @@ a, button {
 }
 
 * {
+  box-sizing: border-box;
   &:hover, &:active, &:focus {
     outline: none;
+  }
+  &:before, &:after {
+    box-sizing: border-box;
   }
 }
