@@ -20,3 +20,14 @@ $(function(){
         }
     });
 });
+$(document).ready(function(){
+    $('.toggle').click(function(){
+        $(this).find("#nav-icon3").toggleClass('open');
+    });
+});
+$('.toggle').on('click',function(){
+    if($('.menu-navigation').is(":visible")){
+        $('.menu-navigation').hide();
+    }
+    else $('.menu-navigation').show();
+});
