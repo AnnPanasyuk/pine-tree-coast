@@ -57,7 +57,7 @@ header {
   width: 100%;
   transition: 1s;
 }
-@media (min-width: 320px) and (max-width: 768px) {
+@media (min-width: 320px) and (max-width: 480px) {
   header {
     padding: 0 0 8px;
   }
@@ -181,22 +181,10 @@ header .toggle-open {
   left: 7%;
   z-index: 2;
 }
-header .btn-ct {
-  padding: 0 50px 0 0;
-  transition: 1s;
-  align-self: center;
-}
-@media (min-width: 320px) and (max-width: 768px) {
-  header .btn-ct {
-    padding: 0 50px 10px 0;
-  }
-}
 @media (min-width: 320px) and (max-width: 480px) {
-  header .btn-ct {
-    position: absolute;
-    top: 23px;
-    right: 10px;
-    padding: 0;
+  header .toggle-open {
+    top: -12px;
+    left: -48px;
   }
 }
 header .multilanguage-btns {

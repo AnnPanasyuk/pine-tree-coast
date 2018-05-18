@@ -3,7 +3,7 @@ header {
   background-color: #ffffff;
   width: 100%;
   transition: 1s;
-  @media (min-width: 320px) and (max-width: 768px) {
+  @media (min-width: 320px) and (max-width: 480px) {
     padding: 0 0 8px;
   }
   .flex-ct {
@@ -117,39 +117,10 @@ header {
     top: 47px;
     left: 7%;
     z-index: 2;
-  }
-  .btn-ct {
-    padding: 0 50px 0 0;
-    transition: 1s;
-    align-self: center;
-    @media (min-width: 320px) and (max-width: 768px) {
-      padding: 0 50px 10px 0;
-    }
     @media (min-width: 320px) and (max-width: 480px) {
-      position: absolute;
-      top: 23px;
-      right: 10px;
-      padding: 0;
+      top: -12px;
+      left: -48px;
     }
-    //.menu-toggle {
-    //  transition: 1s;
-    //  cursor: pointer;
-    //  width: 46px;
-    //  height: 46px;
-    //  padding: 0;
-    //  background-color: transparent;
-    //  border-radius: 50%;
-    //  border: 1px solid #cfae6c;
-    //  &:before {
-    //    content: "\2261";
-    //    color: #cfae6c;
-    //    font-size: 23px;
-    //  }
-    //}
-    //.scroll-menu-toggle {
-    //  margin: 0;
-    //  transition: 1s;
-    //}
   }
   .multilanguage-btns {
     display: flex;
