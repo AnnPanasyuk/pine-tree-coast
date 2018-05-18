@@ -21,11 +21,12 @@ $(function(){
     });
 });
 $(document).ready(function(){
-    $('.toggle').click(function(){
+    $('.toggle-ct').click(function() {
+        $(this).find(".toggle").toggleClass('toggle-open');
         $(this).find("#nav-icon3").toggleClass('open');
     });
 });
-$('.toggle').on('click',function(){
+$('.toggle-ct').on('click',function(){
     if($('.menu-navigation').is(":visible")){
         $('.menu-navigation').hide();
     }

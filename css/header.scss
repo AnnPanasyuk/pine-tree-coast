@@ -32,15 +32,22 @@ header {
       margin: -16px 0 0;
     }
   }
+  .toggle-ct {
+    align-self: flex-start;
+    @media (min-width: 320px) and (max-width: 480px) {
+      position: absolute;
+      top: 23px;
+      right: 10px;
+      padding: 0;
+    }
+  }
   .toggle {
-    //position: absolute;
-    //top: 0;
-    //right: 0;
-    //z-index: 1;
     cursor: pointer;
     border-radius: 50%;
     width: 46px;
     height: 46px;
+    position: relative;
+    z-index: 2;
     border: 1px solid #cfae6c;
     #nav-icon3 {
       width: 29px;
@@ -104,12 +111,12 @@ header {
       width: 0%;
       left: 50%;
     }
-    .open {
-      position: absolute;
-      top: 47px;
-      left: 0;
-      z-index: 2;
-    }
+  }
+  .toggle-open {
+    position: absolute;
+    top: 47px;
+    left: 7%;
+    z-index: 2;
   }
   .btn-ct {
     padding: 0 50px 0 0;
