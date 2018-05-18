@@ -1,34 +1,3 @@
-// $(function(){
-//     $(".left-ct a").on('click', function(e) {
-//         if ($(this).parent().find('ul').length > 0) {
-//             e.preventDefault();
-//             for(var i = 0; i < 1; i++) {
-//                 $(this).attr("data-nesting", i + 1);
-//                 if ($(this).attr("data-nesting") == (i + 1)) {
-//                     $(".level-2-sales-department").attr("data-nesting", (i + 1));
-//                     $(this).parent().find("ul").appendTo(".level-2" + (i + 1));
-//                     }
-//             }
-//             if ($(this).closest(".flex-ct").find(".right-ct").hasClass("right-ct-transform")) {
-//                 $(this).closest(".flex-ct").find(".right-ct").removeClass("right-ct-transform");
-//             } else {
-//                 $(this).closest(".flex-ct").find(".right-ct").addClass("right-ct-transform");
-//             }
-//             if ($(this).closest(".flex-ct").find(".right-ct li").hasClass("li-transform")) {
-//                 $(this).closest(".flex-ct").find(".right-ct li").removeClass("li-transform");
-//             } else {
-//                 $(this).closest(".flex-ct").find(".right-ct li").addClass("li-transform");
-//             }
-//             if ($(this).parent().find("ul").hasClass("ul-transform")) {
-//                 $(".left-ct ul.ul-transform").removeClass("ul-transform");
-//             } else {
-//                 $(".left-ct ul.ul-transform").removeClass("ul-transform");
-//                 $(this).parent().find("ul").addClass("ul-transform");
-//             }
-//         }
-//     });
-// });
-
 $( document ).ready(function() {
     var i = 0;
     $(".left-ct > .back-ct > ul > li > a").each(function () {
@@ -59,5 +28,7 @@ $(function(){
             $(".level").removeClass("active");
             $(this).closest(".left-ct").find($(".level2-" + a)).addClass("active");
         });
+        $(this).closest(".flex-ct").find(".right-ct").addClass("right-ct-transform");
+        $(this).closest(".flex-ct").find(".right-ct li").addClass("li-transform");
     });
 });
