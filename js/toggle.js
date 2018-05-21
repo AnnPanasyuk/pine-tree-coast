@@ -1,5 +1,5 @@
 $(function(){
-    $(document).mouseup(function (e){
+    $(document).click(function (e){
         var div = $(".menu-navigation");
         var sandwich = $(".toggle-ct");
         if (div.hasClass("menu-show")) {
