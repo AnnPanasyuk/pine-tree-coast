@@ -142,7 +142,7 @@ header {
       left: 50%; }
   header .toggle-open {
     position: absolute;
-    top: 47px;
+    top: 10px;
     left: 7%;
     z-index: 2; }
     @media (min-width: 320px) and (max-width: 480px) {
@@ -435,6 +435,9 @@ header {
         font-weight: 400;
         line-height: 55px;
         transition: .3s; }
+        @media (min-width: 320px) and (max-width: 480px) {
+          .menu-navigation .left-ct ul li a {
+            line-height: 1.8; } }
         .menu-navigation .left-ct ul li a:hover {
           color: #deb551; }
       .menu-navigation .left-ct ul li ul {
@@ -453,7 +456,8 @@ header {
         .menu-navigation .left-ct ul li ul li {
           align-self: center; }
           .menu-navigation .left-ct ul li ul li a {
-            color: #2e2319; }
+            color: #2e2319;
+            line-height: 1.8; }
     .menu-navigation .left-ct .level {
       opacity: 0;
       height: 100%;
@@ -478,12 +482,9 @@ header {
           font-family: 'SFUIDisplay-Regular', sans-serif;
           font-size: 16px;
           font-weight: 400;
-          line-height: 55px;
+          line-height: 1.8;
           transition: .3s;
           color: #2e2319; }
-          @media (min-width: 320px) and (max-width: 480px) {
-            .menu-navigation .left-ct .active li a {
-              line-height: 40px; } }
   .menu-navigation .left-ct-tr {
     width: 50%; }
   .menu-navigation .back-ct {
