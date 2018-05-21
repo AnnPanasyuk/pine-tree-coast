@@ -352,13 +352,13 @@ header {
   pointer-events: none;
   transition: 1s;
   position: fixed;
-  width: 100%;
+  width: 86%;
   top: 0;
-  left: 0;
+  left: 7%;
   bottom: 0;
   right: 0;
   z-index: 2;
-  height: 100%; }
+  height: 80%; }
   .menu-navigation .flex-ct {
     height: 100%;
     display: flex;
@@ -460,7 +460,7 @@ header {
             line-height: 1.8; }
     .menu-navigation .left-ct .level {
       opacity: 0;
-      height: 100%;
+      height: 80%;
       width: 0; }
     .menu-navigation .left-ct .active {
       opacity: 1;
@@ -468,8 +468,10 @@ header {
       position: fixed;
       z-index: 2;
       top: 0;
+      bottom: 0;
       left: 50%;
-      width: 50%;
+      width: 43%;
+      height: 80%;
       background-color: #ffffff;
       display: flex;
       flex-direction: column;
