@@ -41,6 +41,12 @@ header {
       padding: 0;
     }
   }
+  .toggle-ct-tr {
+    @media (min-width: 320px) and (max-width: 480px) {
+      position: fixed;
+      z-index: 2;
+    }
+  }
   .toggle {
     cursor: pointer;
     border-radius: 50%;

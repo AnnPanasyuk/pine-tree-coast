@@ -2,8 +2,8 @@
   opacity: 0;
   pointer-events: none;
   transition: 1s;
-  //position: fixed;
-  position: absolute;
+  position: fixed;
+  //position: absolute;
   width: 100%;
   top: 0;
   left: 0;
@@ -151,6 +151,9 @@
           line-height: 55px;
           transition: .3s;
           color: #2e2319;
+          @media (min-width: 320px) and (max-width: 480px) {
+            line-height: 40px;
+          }
         }
       }
     }
@@ -162,6 +165,9 @@
     display: flex;
     position: relative;
     width: 85%;
+    @media (min-width: 320px) and (max-width: 480px) {
+      width: 95%;
+    }
   }
   .center-ct {
     position: absolute;
@@ -169,11 +175,18 @@
     left: 50%;
     z-index: 2;
     transform: translate(-50%, -50%);
+    @media (min-width: 320px) and (max-width: 768px) {
+      top: 35px;
+    }
     .content {
       position: relative;
       height: 300px;
       width: 300px;
       border-radius: 20px;
+      @media (min-width: 320px) and (max-width: 768px) {
+        width: 200px;
+        height: 200px;
+      }
       &::before {
         transform-origin: 0% 100%;
         transform: rotate(45deg) translateY(-50%);
@@ -186,6 +199,10 @@
         height: 150px;
         border-radius: 20px;
         background-image: linear-gradient(to right, #f0e2c1 0%, #e0c997 100%);
+        @media (min-width: 320px) and (max-width: 768px) {
+          width: 100px;
+          height: 100px;
+        }
       }
       .logo-ct {
         position: relative;
@@ -194,9 +211,24 @@
         height: 100%;
         display: flex;
         .logo {
+          align-self: center;
+          width: 132px;
+          height: 70px;
+          margin: auto;
+          transition: 1s;
+          @media (min-width: 320px) and (max-width: 768px) {
+            width: 87px;
+            height: 46px;
+          }
+        }
+        .logo-tr {
           width: 177px;
           height: 94px;
-          margin: auto;
+          margin: 0 auto;
+          @media (min-width: 320px) and (max-width: 768px) {
+            width: 116px;
+            height: 62px;
+          }
         }
       }
       &::after {
@@ -207,10 +239,16 @@
         position: absolute;
         transform-origin: 0 50%;
         transform: rotate(45deg) translateY(-50%);
-        top: 51px;
-        left: 10px;
+        top: 98px;
+        left: 78px;
         border-radius: 15px;
         background-color: #ffffff;
+        @media (min-width: 320px) and (max-width: 768px) {
+          width: 66px;
+          height: 66px;
+          top: 80px;
+          left: 51px;
+        }
       }
     }
     .content-tr {
@@ -219,10 +257,21 @@
         height: 212px;
         transform-origin: 0 50%;
         left: 0;
+        @media (min-width: 320px) and (max-width: 768px) {
+          width: 140px;
+          height: 140px;
+        }
       }
       &::after {
         width: 198px;
         height: 198px;
+        top: 51px;
+        left: 10px;
+        transform-origin: 0 50%;
+        @media (min-width: 320px) and (max-width: 768px) {
+          width: 127px;
+          height: 127px;
+        }
       }
     }
   }
@@ -248,13 +297,23 @@
         cursor: pointer;
         width: 100%;
         transition: .3s;
+        @media (min-width: 320px) and (max-width: 480px) {
+          margin: 15px auto 0;
+          width: 95%;
+        }
         a {
           display: flex;
           width: 100%;
           text-decoration: none;
+          @media (min-width: 320px) and (max-width: 480px) {
+            flex-direction: column;
+          }
         }
         svg {
           align-self: center;
+          @media (min-width: 320px) and (max-width: 480px) {
+            margin: 0 0 10px;
+          }
         }
         span {
           width: 100%;
@@ -267,6 +326,11 @@
           font-size: 16px;
           font-weight: 400;
           line-height: 1;
+          @media (min-width: 320px) and (max-width: 480px) {
+            text-align: center;
+            margin: 0;
+            padding: 10px;
+          }
         }
       }
       .li-transform {
@@ -284,4 +348,5 @@
 }
 .menu-show {
   opacity: 1;
+  pointer-events: auto;
 }

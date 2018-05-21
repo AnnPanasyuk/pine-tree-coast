@@ -1,5 +1,6 @@
 $(document).ready(function(){
     $('.toggle-ct').click(function() {
+        $(this).toggleClass('toggle-ct-tr');
         $(this).find(".toggle").toggleClass('toggle-open');
         $(this).find("#nav-icon3").toggleClass('open');
     });
@@ -19,6 +20,11 @@ $('.toggle-ct').on('click',function(){
         $(".center-ct .content").removeClass("content-tr");
     } else {
         $(".center-ct .content").addClass("content-tr");
+    }
+    if ($(".logo-ct .logo").hasClass("logo-tr")) {
+        $(".logo-ct .logo").removeClass("logo-tr");
+    } else {
+        $(".logo-ct .logo").addClass("logo-tr");
     }
     if($('.menu-navigation').hasClass("menu-show")) {
         $('.menu-navigation').removeClass("menu-show");
