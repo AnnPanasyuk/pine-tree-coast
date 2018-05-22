@@ -3,8 +3,11 @@ $(".single-item").slick({
     infinite: true,
     autoplay: false,
     arrows: false,
-    slidesToShow: 1,
+    centerMode: true,
+    centerPadding: "100px",
+    slidesToShow: 5,
     slidesToScroll: 1,
+    // initialSlide: 6,
     cssEase: "linear",
     asNavFor: ".multiple-items, .dots-ct"
 });
@@ -60,6 +63,21 @@ $(".dots-ct").slick({
     slidesToShow: 10,
     slidesToScroll: 1,
     cssEase: "linear",
+    centerMode: true,
     focusOnSelect: true,
     asNavFor: ".multiple-items, .single-item"
 });
+$('.multiple-items').on('afterChange', function(event, slick, currentSlide) {
+    console.log($('.multiple-items').slick('slickCurrentSlide'));
+    console.log(currentSlide);
+    console.log($(".multiple-items .big-item"));
+});
+$('.multiple-items').on('beforeChange', function(event, slick, currentSlide, nextSlide) {
+    console.log(currentSlide);
+    console.log(nextSlide);
+});
+$(".big-item[data-slick-index=0]").addClass("slide-center");
+$(".big-item[data-slick-index=-1]").addClass("slide-left");
+$(".big-item[data-slick-index=1]").addClass("slide-right");
+
+$(".big-item .slick-current").addClass("center");
