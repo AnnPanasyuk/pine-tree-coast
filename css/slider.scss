@@ -14,83 +14,123 @@
       .slide-right {
 
       }
-      //.left-2 {
-      //  height: 170px!important;
-      //  position: relative;
-      //  z-index: -2;
-      //  //margin: 0 -157px 0 0;
-      //  transform: translateX(157px);
-      //}
-      //.left-1 {
-      //  position: relative;
-      //  z-index: -1;
-      //  //margin: 0 -86px 0 0;
-      //  transform: translateX(86px);
-      //}
-      //.center {
-      //  height: 250px!important;
-      //}
-      //.right-1 {
-      //  position: relative;
-      //  z-index: -1;
-      //  //margin: 0 0 0 -86px;
-      //  transform: translateX(-86px);
-      //}
-      //.right-2 {
-      //  height: 170px!important;
-      //  //margin: 0 0 0 -157px;
-      //  transform: translateX(-157px);
-      //  position: relative;
-      //  z-index: -2;
-      //}
       .big-item {
         //align-self: center;
-        width: 600px;
-        height: 200px;
+        //width: 600px;
+        //height: 200px;
         opacity: 0;
         transition: 1s;
-        margin: 25px 0 0;
+        margin: 25px 0;
         img {
-          width: 100%;
-          height: 100%;
+          width: 217px;
+          height: 170px;
+          //width: 100%;
+          //height: 100%;
           display: block;
           margin: 0 auto;
         }
       }
       .slide-2 {
-        border: 2px solid red;
-        margin: 40px 0 0;
-        height: 170px!important;
-        position: relative;
-        z-index: -2;
-        transform: translateX(157px);
+        //margin: 40px 0;
+        //margin: 0;
+        //height: 320px!important;
+        //height: 170px!important;
+        //position: relative;
+        //z-index: 1;
+        //transform: translateX(157px);
+        display: flex;
+        justify-content: flex-end;
+        .big-item-back {
+          width: 130px;
+          height: 170px;
+          overflow: hidden;
+          margin: 40px 0 0;
+          img {
+            transform: translateX(-70px);
+          }
+        }
       }
       .slide-1 {
-        border: 2px solid green;
-        position: relative;
-        z-index: -1;
-        transform: translateX(86px);
-        margin: 25px 0 0;
+        //position: relative;
+        //z-index: 2;
+        //height: 290px;
+        //transform: translateX(86px);
+        //margin: 25px 0;
+        //margin: 0;
+        display: flex;
+        justify-content: flex-end;
+        .big-item-back {
+          width: 65px;
+          height: 200px;
+          overflow: hidden;
+          margin: 25px 0 0;
+          img {
+            transform: translateX(-150px);
+          }
+        }
       }
       .slide-0 {
-        border: 2px solid yellow;
-        height: 250px!important;
-        margin: 0;
+        //position: relative;
+        //z-index: 3;
+        //height: 250px!important;
+        //transform: translateX(0);
+        //margin: 0;
+        width: 217px;
+        .big-item-back {
+          width: 100%;
+          height: 250px;
+          img {
+            width: 100%;
+            height: 100%;
+          }
+        }
       }
       .slide-11 {
-        margin: 25px 0 0;
-        border: 2px solid orange;
-        position: relative;
-        z-index: -1;
-        transform: translateX(-86px);
+        //margin: 25px 0;
+        //position: relative;
+        //z-index: 2;
+        //transform: translateX(-86px);
+        .big-item-back {
+          width: 65px;
+          overflow: hidden;
+          height: 200px;
+          margin: 25px 0 0;
+          img {
+            transform: translateX(0);
+            //position: absolute;
+            //top: 25px;
+            //right: 0;
+          }
+        }
       }
       .slide-22 {
-        margin: 40px 0 0;
-        border: 2px solid blue;
-        height: 170px!important;
-        transform: translateX(-157px);
-        position: relative;
-        z-index: -2;
+        //margin: 40px 0;
+        //height: 170px!important;
+        //transform: translateX(-157px);
+        //position: relative;
+        //z-index: 1;
+        .big-item-back {
+          width: 130px;
+          overflow: hidden;
+          height: 170px;
+          margin: 40px 0 0;
+          img {
+            transform: translateX(0);
+            //position: absolute;
+            //top: 40px;
+            //right: 0;
+          }
+        }
+      }
+      .slide-33 {
+        //margin: 40px 0 0;
+        //height: 170px!important;
+        //transform: translateX(-157px);
+        //position: relative;
+        //z-index: 0;
+        .big-item-back {
+
+        }
       }
       .slick-list {
         padding: 0!important;
