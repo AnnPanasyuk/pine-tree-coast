@@ -67,17 +67,34 @@ $(".dots-ct").slick({
     focusOnSelect: true,
     asNavFor: ".multiple-items, .single-item"
 });
-$('.multiple-items').on('afterChange', function(event, slick, currentSlide) {
-    console.log($('.multiple-items').slick('slickCurrentSlide'));
+function v(b) {
+    for(var i = 0; i < $(".single-item .slick-track > .slick-active").length; i++) {
+        var a = b;
+        $(".slick-track > .slick-active").removeClass("slide-2");
+        $(".slick-track > .slick-active").removeClass("slide-1");
+        $(".slick-track > .slick-active").removeClass("slide-0");
+        $(".slick-track > .slick-active").removeClass("slide-11");
+        $(".slick-track > .slick-active").removeClass("slide-22");
+        $(".slick-track > .slick-active[data-slick-index=" + (a - 2) + "]").addClass("slide-2");
+        $(".slick-track > .slick-active[data-slick-index=" + (a - 1) + "]").addClass("slide-1");
+        $(".slick-track > .slick-active[data-slick-index=" + a + "]").addClass("slide-0");
+        $(".slick-track > .slick-active[data-slick-index=" + (a + 1) + "]").addClass("slide-11");
+        $(".slick-track > .slick-active[data-slick-index=" + (a + 2) + "]").addClass("slide-22");
+        $(".slick-track > .big-item[data-slick-index=" + (a + 3) + "]").addClass("slide-22");
+        console.log("i:" + i);
+        console.log("a:" + a);
+    }
+}
+var currentSlideBeforeChange = 0;
+v(currentSlideBeforeChange);
+
+$('.single-item').on('afterChange', function(event, slick, currentSlide) {
+    var currentSlide_in_single_item = $('.single-item').slick('slickCurrentSlide');
+    console.log("currentSlide in single-item:" + currentSlide_in_single_item);
     console.log(currentSlide);
     console.log($(".multiple-items .big-item"));
+    v(currentSlide_in_single_item);
 });
-$('.multiple-items').on('beforeChange', function(event, slick, currentSlide, nextSlide) {
-    console.log(currentSlide);
-    console.log(nextSlide);
-});
-$(".big-item[data-slick-index=0]").addClass("slide-center");
-$(".big-item[data-slick-index=-1]").addClass("slide-left");
-$(".big-item[data-slick-index=1]").addClass("slide-right");
 
-$(".big-item .slick-current").addClass("center");
+
+
