@@ -21,7 +21,6 @@
         width: 217px;
         height: 250px;
         transition: 1s;
-        transition-delay: .3s;
         .big-item-back {
           width: 100%;
           position: relative;
@@ -33,10 +32,9 @@
             top: 50%;
             left: 50%;
             min-width: 100%;
-            min-height: 100%;
+            min-height: 250px;
             width: auto;
             max-width: none;
-            //width: 217px;
             height: 100%;
             transform: translate(-50%, -50%);
           }
@@ -47,13 +45,11 @@
         justify-content: flex-end;
         .big-item-back {
           width: 130px;
-          height: 170px;
+          height: 100%;
           overflow: hidden;
-          top: 40px;
-          //margin: 40px 0 0;
           img {
-            //height: 100%;
-            //transform: translateX(-70px);
+            height: 170px;
+            min-height: 0;
           }
         }
       }
@@ -63,13 +59,11 @@
         background-color: red;
         .big-item-back {
           width: 65px;
-          height: 200px;
+          height: 100%;
           overflow: hidden;
-          //margin: 25px 0 0;
-          top: 25px;
           img {
-            //height: 100%;
-            //transform: translateX(0);
+            height: 200px;
+            min-height: 0;
           }
         }
       }
@@ -83,15 +77,12 @@
           position: absolute;
           top: 0%;
           left: 50%;
-          min-height: 100%;
+          min-height: 250px;
           min-width: 100%;
           width: auto;
           background-color: green;
           transform: translate(-50%, 0%);
-          //width: 100%;
-          //height: 250px;
           img {
-            //height: 100%;
             width: 100%;
           }
         }
@@ -101,15 +92,10 @@
         .big-item-back {
           width: 65px;
           overflow: hidden;
-          //height: 200px;
           height: 100%;
-          //top: 25px;
-          //margin: 25px 0 0;
           img {
             height: 200px;
             min-height: 0;
-            //height: 100%;
-            //transform: translateX(-150px);
           }
         }
       }
@@ -117,12 +103,10 @@
         .big-item-back {
           width: 130px;
           overflow: hidden;
-          height: 170px;
-          //margin: 40px 0 0;
-          top: 40px;
+          height: 100%;
           img {
-            //height: 100%;
-            //transform: translateX(0);
+            height: 170px;
+            min-height: 0;
           }
         }
       }
@@ -130,12 +114,11 @@
         .big-item-back {
           width: 130px;
           overflow: hidden;
-          height: 170px;
-          //margin: 40px 0 0;
+          height: 100%;
           top: 40px;
           img {
-            //height: 100%;
-            //transform: translateX(0);
+            height: 170px;
+            min-height: 0;
           }
         }
       }
