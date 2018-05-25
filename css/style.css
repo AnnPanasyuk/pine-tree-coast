@@ -1017,21 +1017,61 @@ header .communications .social-network a svg {
   color: #000000;
   text-align: center;
   font-weight: 400;
+  font-size: 16px;
   font-family: 'SFUIDisplay-Regular', sans-serif;
 }
 .accordion .accordion-ct .drop-down-body {
-  height: 0;
-  padding: 0;
+  display: none;
+  padding: 20px;
   overflow: hidden;
 }
 .accordion .accordion-ct .drop-down-body p {
+  font-size: 14px;
   color: #000000;
   font-weight: 400;
   font-family: 'SFUIDisplay-Light', sans-serif;
 }
 .accordion .accordion-ct .drop-down-body-active {
   padding: 20px;
-  height: auto;
+}
+
+.tabs {
+  padding: 20px 0 0;
+}
+.tabs .tabs-ct {
+  width: 80%;
+  margin: 0 auto;
+}
+.tabs .flex-ct {
+  display: flex;
+  justify-content: center;
+}
+.tabs .flex-ct .caption {
+  cursor: pointer;
+  padding: 20px;
+  border: 2px solid blue;
+  margin: 0 10px;
+}
+.tabs .flex-ct .caption p {
+  font-weight: 400;
+  font-family: 'SFUIDisplay-Regular', sans-serif;
+  color: #000000;
+  font-size: 16px;
+}
+.tabs .flex-ct .active {
+  border: 2px solid red;
+}
+.tabs .content .body {
+  display: none;
+  padding: 20px;
+}
+.tabs .content .body p {
+  font-size: 14px;
+  font-weight: 400;
+  font-family: 'SFUIDisplay-Regular', sans-serif;
+}
+.tabs .content .active {
+  display: block;
 }
 
 /*# sourceMappingURL=style.css.map */

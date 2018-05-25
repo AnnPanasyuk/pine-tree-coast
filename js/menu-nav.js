@@ -21,7 +21,7 @@ $( document ).ready(function() {
     });
 });
 
-$(function(){
+$(function() {
     $("a[data-nesting]").on('click', function() {
         $(this).each(function () {
             var a = $(this).attr("data-nesting");

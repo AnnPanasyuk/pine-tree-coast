@@ -10,14 +10,16 @@
         color: #000000;
         text-align: center;
         font-weight: 400;
+        font-size: 16px;
         font-family: 'SFUIDisplay-Regular', sans-serif;
       }
     }
     .drop-down-body {
-      height: 0;
-      padding: 0; //20px
+      display: none;
+      padding: 20px;
       overflow: hidden;
       p {
+        font-size: 14px;
         color: #000000;
         font-weight: 400;
         font-family: 'SFUIDisplay-Light', sans-serif;
@@ -25,7 +27,6 @@
     }
     .drop-down-body-active {
       padding: 20px;
-      height: auto;
     }
   }
 }
