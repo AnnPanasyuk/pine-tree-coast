@@ -30,7 +30,7 @@ $(".news-btn").on('click', function() {
                 title +
                 '</p>' +
                 '</a>' +
-                '</div>' +
+                '</div>' + 
                 '<div class="description-ct">' +
                 '<p>' +
                 des +
