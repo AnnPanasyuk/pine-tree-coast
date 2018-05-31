@@ -13,6 +13,15 @@
   padding: 20px;
   border-radius: 15px;
   box-sizing: content-box;
+  .pop-up-window-back {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background-color: #ffffff;
+  }
   .pop-up-ct {
     position: absolute;
     top: 50%;
@@ -157,4 +166,20 @@
 .pop-up-window-close {
   opacity: 0;
   pointer-events: auto;
+}
+.des_file_ct {
+  display: flex;
+  .des_file {
+    margin: 0 15px 0 0;
+  }
+  .close {
+    padding: 0 5px;
+    border-radius: 50%;
+    border: 1px solid #000000;
+    cursor: pointer;
+    &::before {
+      content: 'x';
+      color: #000000;
+    }
+  }
 }

@@ -26,14 +26,7 @@ $(function(){
     });
 });
 $(function() {
-   $(".pop-up-window").click(function(e) {
-       var pop_up_ct = $(".pop-up-ct");
-       var pop_up_sandwich = $(".pop-up-toggle-ct");
-       if($(".pop-up-window").hasClass("pop-up-window-active")) {
-           if ( !pop_up_ct.is(e.target) && pop_up_ct.has(e.target).length === 0 && !pop_up_sandwich.is(e.target) && pop_up_sandwich.has(e.target).length === 0 ) {
-               // $(".pop-up-window").addClass("pop-up-window-close");
-               $(".pop-up-window").removeClass("pop-up-window-active");
-           }
-       }
+   $(".pop-up-window-back").click(function(e) {
+       $(".pop-up-window").removeClass("pop-up-window-active");
    });
 });
