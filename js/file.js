@@ -38,4 +38,21 @@ $('input[type=file]').change(function(){
     var file_name = document.getElementById("file").files;
     add(file_name);
 });
+$("form button[type=submit]").on('click', function(e) {
+    e.preventDefault();
+    var formData = new FormData();
+    for(var i = 0; i < document.getElementById("file").files.length; i++) {
+        formData.append('file'+ i , document.getElementById("file").files[i]);
+    }
 
+    fetch('./ajax-programer.php', {
+        method: 'POST',
+        body: formData
+    })
+
+        .then(function (response) {
+            return response.json();
+        })
+
+        .catch(console.log);
+});
