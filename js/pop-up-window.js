@@ -19,14 +19,22 @@ $(function(){
         }
     });
 });
+
 $(function(){
     $(".pop-up-window .pop-up-toggle-ct").on('click', function() {
         $(".pop-up-window").removeClass("pop-up-window-active");
         $("body").removeClass("body-scroll");
     });
 });
+
 $(function() {
    $(".pop-up-window-back").click(function(e) {
        $(".pop-up-window").removeClass("pop-up-window-active");
    });
+});
+
+$(function() {
+    $("form button[type=submit]").click(function(e) {
+        $(".pop-up-window").removeClass("pop-up-window-active");
+    });
 });
