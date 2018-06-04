@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AACE,0BAAQ;EACN,MAAM,EAAE,MAAM",
+"sources": ["parallax-vertical.scss"],
+"names": [],
+"file": "parallax-vertical.css"
+}

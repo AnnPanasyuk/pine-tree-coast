@@ -1,1 +1,3 @@
-$("body").stellar();
+$("body").stellar({
+    verticalScrolling: false
+});

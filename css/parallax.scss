@@ -1,0 +1,30 @@
+.parallax {
+  padding: 50px 0;
+  .dog-ct {
+    width: 500px;
+    height: 400px;
+  }
+  .dog-ct1 {
+    background: url("../img/parallax/1.jpg") no-repeat 100% 100%;
+    background-size: cover;
+  }
+  .dog-ct2 {
+    background: url("../img/parallax/2.jpeg") no-repeat 100% 100%;
+    background-size: cover;
+  }
+  .dog-ct3 {
+    background: url("../img/parallax/3.jpeg") no-repeat 100% 100%;
+    background-size: cover;
+  }
+  .dog-ct4 {
+    background: url("../img/parallax/4.jpeg") no-repeat 100% 100%;
+    background-size: cover;
+  }
+  .dog-ct5 {
+    background: url("../img/parallax/5.jpeg") no-repeat 100% 100%;
+    background-size: cover;
+  }
+}
+
+@import 'parallax-vertical';
+@import 'parallax-horizontal';
